@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#container {
+    margin-top: 1%;
+    display: flex;
+    height: 40em;
+    width: 95em;
+    background-color: slategray;
+    border-radius: 10px;
+}
+
+canvas {
+    background-color: white;
+    margin: 1em;
+    border-radius: 15px;
+}
+
+input {
+    cursor: pointer;
+}
+
+#file-label {
+    font-size: 16px;
+    text-align: center;
+    background-color: hotpink;
+    height: 30px;
+    width: 120px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#buttons-area {
+    margin: .7em .7em .7em auto;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.button-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+
+#file-input {
+    cursor: pointer;
+}
+
+#save-button {
+    font-size: inherit;
+    padding: .8em;
+    font-weight: bold;
+    background-color: slategray;
+    cursor: pointer;
+    border-radius: 15px;
+}
