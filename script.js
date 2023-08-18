@@ -25,6 +25,7 @@ fileUploader.addEventListener('change', (event) => {
         image.onload = function (ev) {
             canvas.width = image.width;
             canvas.height = image.height;
+            canvas.style.background = '#fff';
             ctx = canvas.getContext('2d');
             ctx.drawImage(image, 0, 0);
         };
