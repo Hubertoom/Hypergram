@@ -2,16 +2,15 @@ body {
     display: flex;
     justify-content: center;
     font-family: Arial, sans-serif;
-    background: rgb(95,138,196);
-    background: linear-gradient(107deg, rgba(95,138,196,1) 0%, rgba(98,110,156,1) 41%,
-    rgba(113,107,159,0.015) 56%, rgba(155,98,167,1) 66%, rgba(94,111,155,1) 66%);
+    background: rgb(149,147,141);
+    background: linear-gradient(90deg, rgba(149,147,141,1) 28%, rgba(198,197,189,1) 38%, rgba(30,26,26,0.6166667350533963) 79%);
     background-size: cover;
     background-attachment: fixed;
 }
 
 #container {
-    margin-top: 1%;
     display: flex;
+    margin-top: 1%;
     height: 40em;
     width: 95em;
     border-radius: 10px;
@@ -31,8 +30,7 @@ input {
 #file-label {
     font-size: 18px;
     text-align: center;
-    background: rgb(154,111,184);
-    background: linear-gradient(90deg, rgba(154,111,184,1) 21%, rgba(178,134,208,1) 76%, rgba(54,14,82,.5) 100%);
+    background: whitesmoke;
     height: 25px;
     width: 120px;
     padding: 20px 10px 10px 10px;
@@ -42,7 +40,9 @@ input {
 
 #buttons-area {
     margin: .7em .7em .7em auto;
-    background: rgba(255, 255, 255, .1);
+    background: rgb(181,181,181);
+    background: linear-gradient(90deg, rgba(181,181,181,0.5) 12%,
+    rgba(181,181,181,1) 24%, rgba(181,181,181,0) 59%, rgba(181,181,181,0.9) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +71,5 @@ input {
     font-weight: bold;
     cursor: pointer;
     border-radius: 15px;
-    background: rgb(181,181,181);
-    background: linear-gradient(90deg, rgba(181,181,181,0.5) 12%,
-    rgba(181,181,181,1) 24%, rgba(181,181,181,0) 59%, rgba(181,181,181,0.9) 100%);
+    background: whitesmoke;
 }
