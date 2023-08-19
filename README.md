@@ -14,7 +14,8 @@ of pixel processing.
 ## How to use
 Just click on the link below, read your picture, <br/>
 edit it, and don't forget to save it. <br/>
-The name of the file will be ```result.png```
+The name of the file will be ```result.png``` <br/>
+
 https://hubertoom.github.io/Hypergram/
 
 ## Video
